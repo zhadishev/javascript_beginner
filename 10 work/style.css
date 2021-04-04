@@ -1,0 +1,19 @@
+body{
+	background: #b60c1a;
+	color: rgb(241, 247, 243);
+	font-family: Calibri, sans-serif;
+}
+article{
+	max-width: 900px;
+	margin: 0 auto;
+	background: rgb(25, 223, 230);
+}
+.test{
+	background: rgb(51, 240, 13);
+}
+p span{
+	background: red;
+}
+h1{
+	text-transform: uppercase;
+}

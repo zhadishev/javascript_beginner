@@ -1,0 +1,12 @@
+.container{
+    width: 1200px;
+    margin: 0 auto ;
+}
+img[title="car"]{
+   font-size: 100%;
+}
+a[href="https://o.kg"]{
+    font-size: 25px;
+    color: rgb(190, 12, 176);
+    border: 1px solid red;
+}

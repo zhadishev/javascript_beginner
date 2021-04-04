@@ -1,0 +1,48 @@
+a:hover{
+	color:red;
+}
+a:active{
+	font-size: 20px;
+	color:red;
+}
+a:link{
+	color:green;
+}
+a:visited{
+	color: grey;
+}
+p:first-letter{
+	font-size: 30px;
+	color: red;
+}
+p:first-line{
+	font-weight: inherit;
+	font-style: italic;
+	color: maroon;
+}
+input:focus{
+	background: #fffccc;
+	border-color: red;
+}
+input::focus{
+	background: #fffccc;
+	border-color: red;
+}
+::selection{
+	color:rgb(218, 12, 12);
+	background: #0d0ac5;
+}
+h1{
+	font-style: italic;
+	color: lawngreen;
+}
+h2{
+	font-size: 48px;
+	font-weight: bolder;
+}
+.test::before{
+content: "Когда же" 
+}
+.test:after{
+content: "это закончится" 
+}
